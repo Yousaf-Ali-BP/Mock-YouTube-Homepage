@@ -1,2 +1,28 @@
-
-
+body{
+  background-color:#000;
+  display: grid;
+  grid-template-columns: 1fr 14fr;
+  height: 100vh;
+}
+.left{
+  background-color: lightgoldenrodyellow;
+}
+.right{
+  display:grid;
+  grid-template-rows: 1fr 19.5fr;
+  background-color: gray;
+}
+header{
+  background-color:#0000ff;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.logosearch{
+  background-color:yellow;
+}
+.siggestion{
+  background-color: green;
+}
+.content{
+  background-color: orchid;
+}
