@@ -10,13 +10,8 @@ body{
 }
 .right{
   display:grid;
-  grid-template-rows:auto 1fr;
+  grid-template-rows:auto auto 1fr;
   background-color: gray;
-}
-header{
-  background-color:#000;
-  display: grid;
-  grid-template-rows: 2fr 1fr;
 }
 .logo-search-row{
   display: flex;
@@ -42,7 +37,7 @@ header{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   width:6vw;
-  height: 4vw;
+  height: 4.2vw;
   padding: 5px 5px 0 5px;
   text-align: center;
   font-size:16px;
@@ -53,7 +48,7 @@ header{
 
 #search-bar{
   width:37vw;
-  height: 4vw;
+  height: 4.2vw;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   outline-color: #1C62B8;
@@ -68,8 +63,8 @@ header{
 .btn-mic{
   margin-left: 10px;
   border-radius: 20px;
-  width:4vw;
-  height: 4vw;
+  width:4.2vw;
+  height: 4.2vw;
   border: none;
   background: #F2F2F2;
 }
@@ -79,8 +74,8 @@ header{
 }
 .btn-prosec{
   display: flex;
-  height: 4vw;
-  width:4vw;
+  height: 4.2vw;
+  width:4.2vw;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -119,20 +114,22 @@ header{
   justify-content: center;
   align-items: center;
   background-color:#f2f2f2;
+  font-weight: bold;
+  padding: 8px 8px;
   border: none;
   outline:none;
   margin-right: 10px;
-  
   cursor: pointer;
   border-radius: 10%;
 }
 .suggestions-bar{
   display:flex;
-  padding: 1px 0;
+  padding-top: 12px;
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width:none;
   -ms-overflow-style:none;
+  background-color: greenyellow;
 }
 .suggestions-bar::-webkit-scrollbar{
   display: none;
