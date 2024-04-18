@@ -3,6 +3,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 14fr;
   height: 100vh;
+  margin: 0;
 }
 .left{
   background-color: lightgoldenrodyellow;
@@ -42,8 +43,7 @@ header{
   border-bottom-right-radius: 20px;
   width:6vw;
   height: 4vw;
-  padding: 5px;
-  padding-bottom:0;
+  padding: 5px 5px 0 5px;
   text-align: center;
   font-size:16px;
   border-width: 1px;
@@ -74,8 +74,8 @@ header{
   background: #F2F2F2;
 }
 .btn-mic:active{
-  background-color: #c3c3ce;
-  transition: 0.5s;
+  background-color: #c3c3c3;
+  transition: 0.1s;
 }
 .btn-prosec{
   display: flex;
@@ -114,8 +114,28 @@ header{
 }
 
   
-.suggestions{
-  background-color: green;
+.suggestion{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#f2f2f2;
+  border: none;
+  outline:none;
+  margin-right: 10px;
+  
+  cursor: pointer;
+  border-radius: 10%;
+}
+.suggestions-bar{
+  display:flex;
+  padding: 1px 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.suggestions-bar::-webkit-scrollbar{
+  display: none;
 }
 .content{
   background-color: orchid;
