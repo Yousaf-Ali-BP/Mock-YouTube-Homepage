@@ -4,6 +4,8 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="styles/style.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Mock YouTube Homepage</title>
 </head>
@@ -11,7 +13,25 @@
   <div class="left"></div>
   <div class="right">
     <header>
-      <div class="logosearch"></div>
+      <div class="logo-search-row">
+        <div>
+        <img id="logo" src="/storage/emulated/0/Programming/Web/WebDesigning/Projects/Mock-YouTube-Homepage/img/youtube_logo.png">
+        </div>
+          <div class="search-mic">
+            <div class="search-section">
+              <input type="search" id="search-bar">
+              <label for="searchbar"><button class="btn-search"><i class="material-icons">search</i></button></label>
+            </div>
+            <div class="mic-section">
+              <button class="btn-mic"><i class="fas fa-microphone" style="font-size:2vw;"></i></button>
+            </div>
+          </div>
+        <div class="profile-sec">
+          <button class="btn-prosec"><i class="material-icons-outlined">video_call</i></button>
+          <button class="btn-prosec"><i class="material-icons-outlined">notifications</i></button>
+          <button class="btn-profile"></button>
+        </div>
+      </div>
       <div class="suggestions"></div>
     </header>
     <div class="content">

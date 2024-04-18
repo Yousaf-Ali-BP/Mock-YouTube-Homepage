@@ -9,18 +9,112 @@ body{
 }
 .right{
   display:grid;
-  grid-template-rows: 1fr 19.5fr;
+  grid-template-rows:auto 1fr;
   background-color: gray;
 }
 header{
-  background-color:#0000ff;
+  background-color:#000;
   display: grid;
   grid-template-rows: 2fr 1fr;
 }
-.logosearch{
+.logo-search-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   background-color:yellow;
 }
-.siggestion{
+#logo{
+  width: 10vw;
+  height: 5vw;
+}
+.search-section{
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  margin:0;
+}
+.btn-search{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width:6vw;
+  height: 4vw;
+  padding: 5px;
+  padding-bottom:0;
+  text-align: center;
+  font-size:16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #F8F8F8;
+}
+
+#search-bar{
+  width:37vw;
+  height: 4vw;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline-color: #1C62B8;
+  border-width: 1px;
+  border-color:#cccccc;
+  outline-width: 1px
+}
+.search-mic{
+  display: flex;
+  align-items: center;
+}
+.btn-mic{
+  margin-left: 10px;
+  border-radius: 20px;
+  width:4vw;
+  height: 4vw;
+  border: none;
+  background: #F2F2F2;
+}
+.btn-mic:active{
+  background-color: #c3c3ce;
+  transition: 0.5s;
+}
+.btn-prosec{
+  display: flex;
+  height: 4vw;
+  width:4vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: none;
+  border: none;
+}
+.btn-prosec:active{
+  background-color: #cecece;
+}
+.btn-prosec:hover{
+  background-color: #e5e5e5;
+}
+.btn-prosec i{
+  font-size: 3vw;
+}
+.btn-profile{
+  height: 3vw;
+  width:3vw;
+  background-image: url("/storage/emulated/0/Programming/Web/WebDesigning/Projects/Mock-YouTube-Homepage/img/yousaf_profile.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+}
+.profile-sec{
+  width:14vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3vw;
+}
+
+  
+.suggestions{
   background-color: green;
 }
 .content{
