@@ -1,26 +1,22 @@
-body{
-  background-color:#000;
-  display: grid;
-  grid-template-columns:80px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-  margin: 0;
-}
-.left{
-  background-color:darkblue;
+.left,body,.menu-bar,.menu-icons,.menu-bar div,.menu-label,.search-section,.remaining,.video-tile,.tumbnail img,.tiltle{
   margin: 0;
   padding: 0;
+}
+body{
+  background-color:#fff;
+  display: grid;
+  grid-template-columns:70px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 .menu-bar{
   display: flex;
   flex-direction: column;
   width:100%;
-  height: 20vh;
+  min-height: 300px;
+  height: 32vw;
   justify-content:space-between;
-  align-items:center;;
-  background-color: lightgoldenrodyellow;
-  margin: 0;
-  padding: 0;
+  align-items:center;
 }
 .menu-bar .material-icons {
   font-size: 3vw;
@@ -29,51 +25,41 @@ body{
   font-size: 4vw;
 }
 .menu-icons{
-  margin: 0;
   width:2.5vw;
   height: 2.5vw;
 }
 .menu-bar div{
   display: flex;
   flex-direction: column;
-  margin: 0;
   justify-content: center;
   align-items: center;
-  padding: 0;
   text-align: center;
-  background-color: darkseagreen;
   height: 4vw;
   width:100%;
 }
 .menu-label{
   font-size: 0.6em;
-  margin: 0;
   font-weight: 400;
 }
 .right{
   display:grid;
   grid-template-rows:auto auto 1fr;
-  background-color: gray;
 }
 .logo-search-row{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color:yellow;
 }
 #logo{
   width: 10vw;
   height: 5vw;
 }
 .search-section{
-  background-color: lightcyan;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding:0;
-  margin:0;
 }
 .btn-search{
   border-top-right-radius: 20px;
@@ -87,7 +73,6 @@ body{
   border-color: #cccccc;
   background-color: #F8F8F8;
 }
-
 #search-bar{
   width:37vw;
   padding-left: 20px;
@@ -150,19 +135,17 @@ body{
   align-items: center;
   margin-right: 3vw;
 }
-
-  
 .suggestion{
   display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color:#f2f2f2;
   font-weight: bold;
-  padding: 8px 8px;
+  padding: 10px 10px;
   border: none;
   outline:none;
   color:#0A0A0A;
-  margin-right: 10px;
+  margin-right: 16px;
   cursor: pointer;
   border-radius: 15%;
 }
@@ -178,7 +161,6 @@ body{
   white-space: nowrap;
   scrollbar-width:none;
   -ms-overflow-style:none;
-  background-color: greenyellow;
 }
 .suggestions-bar::-webkit-scrollbar{
   display: none;
@@ -189,37 +171,27 @@ body{
   width:95%;
   height: 100vh;
   overflow: auto;
-  margin:20px 0 0 30px;
-  
-  
-  
+  margin:25px 0 0 30px;
 }
 .remaining{
-  background-color: orchid;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:10px 0;
-  margin: 0;
-  
 }
 .video-tile{
-  background-color:lightcyan;
-  width:43vw;
-  height:35vw;
-  margin:0;
+  width:41vw;
+  height:40vw;
 }
 .first-four{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: purple;
   gap: 10px 0;
   height: 80vw;
   margin-bottom: 10px
 }
 .tumbnail{
   width:100%;
-  height:24.1875vw;
-  background-color: #000;
+  height:23.0625vw;
   overflow: hidden;
   border-radius: 10px;
   padding: 0;
@@ -228,44 +200,27 @@ body{
   width:100%;
   height: 100%;
   object-fit:cover;
-  margin: 0;
 }
 .video-info{
   display: grid;
   grid-template-columns: 2fr 12fr 1fr;
-  background: limegreen;
   height:25%;
   margin-top: 0.5vw;
-}
-.channel-icon{
-  background: lightgreen;
-  
 }
 .channel-icon img{
   height: 4vw;
   width:4vw;
   border-radius: 50%;
 }
-.videi-title{
-  background-color: lightcoral;
-}
-.tiltle{
-  margin: 0;
+.title{
   font-size: 1em;
   color:#0A0A0A;
 }
-.threedot{
-  
-}
 .threedot h2{
-  margin: 0;
   text-align: end;
   padding-right: 4px
-  
 }
 .discription{
   margin:4px 0 0 0;
   color:#5B5B5B;
 }
-
-
