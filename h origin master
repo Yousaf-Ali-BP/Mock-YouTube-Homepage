@@ -1,0 +1,60 @@
+*   [33mcommit c8fd8af8448811ab08be0479014a7030077d9101[m[33m ([m[1;35mrefs/stash[m[33m)[m
+[31m|[m[32m\[m  Merge: 1c6bda6 8b51584
+[31m|[m [32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[31m|[m [32m|[m Date:   Sat Apr 20 17:02:16 2024 +0530
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     WIP on master: 1c6bda6 add manu bar and compleated , and also compleated yt home page ,with layout boundaries
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 8b515843080b2bf0631b6d537c7fae9a57e1325d[m
+[31m|[m[31m/[m  Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[31m|[m   Date:   Sat Apr 20 17:02:16 2024 +0530
+[31m|[m   
+[31m|[m       index on master: 1c6bda6 add manu bar and compleated , and also compleated yt home page ,with layout boundaries
+[31m|[m 
+* [33mcommit 1c6bda6cbb9dc1a3ef22d78dbd81f01a62b51a9f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Sat Apr 20 15:36:51 2024 +0530
+[32m|[m 
+[32m|[m     add manu bar and compleated , and also compleated yt home page ,with layout boundaries
+[32m|[m 
+* [33mcommit 7b1ff7dc90c7c58c42ce4f7770210fb11ecbe845[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Sat Apr 20 10:01:47 2024 +0530
+[32m|[m 
+[32m|[m     completed Main content i.e., right side section
+[32m|[m 
+* [33mcommit d4cd539874f70eb473e20dada5ac3a524113a4d7[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Fri Apr 19 07:39:51 2024 +0530
+[32m|[m 
+[32m|[m     add vedio tiles
+[32m|[m 
+* [33mcommit ccb2ae7f2c0c3d259ce5e3477ac256c69f01926e[m[33m ([m[1;31morigin/master[m[33m)[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Thu Apr 18 17:59:22 2024 +0530
+[32m|[m 
+[32m|[m     finalize suggestion bar and compleate header
+[32m|[m 
+* [33mcommit 41fd87bb08339a187942093eccf9d4a81fd51546[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Thu Apr 18 16:59:56 2024 +0530
+[32m|[m 
+[32m|[m     adding suggestions list 1st stage
+[32m|[m 
+* [33mcommit 95ff06950f33437510bc62f06785ead21bc10fb7[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Thu Apr 18 14:24:06 2024 +0530
+[32m|[m 
+[32m|[m     add main part of header,i.e., logo , search bar,profile..etc
+[32m|[m 
+* [33mcommit a46f6a424d85552a21870b6cc1f15a44645f948f[m[33m ([m[1;32malpha[m[33m)[m
+[32m|[m Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+[32m|[m Date:   Wed Apr 17 18:45:39 2024 +0530
+[32m|[m 
+[32m|[m     complete basics layout
+[32m|[m 
+* [33mcommit 8c3bf8d5f9ba15e85e1c37ff0fb4954ea0bfe8d2[m
+  Author: Yousaf-Ali-BP <bpyousafali@gmail.com>
+  Date:   Wed Apr 17 12:03:35 2024 +0530
+  
+      create new project for YouTube home page
